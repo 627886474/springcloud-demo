@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Class-Path: spring-cloud-starter-netflix-eureka-server-2.0.0.RELEASE.j
+ ar spring-web-5.0.7.RELEASE.jar httpcore-4.4.9.jar spring-cloud-netfl
+ ix-eureka-server-2.0.0.RELEASE.jar spring-boot-actuator-autoconfigure
+ -2.0.3.RELEASE.jar guice-4.1.0.jar stringtemplate-3.2.1.jar xpp3_min-
+ 1.1.4c.jar antlr-runtime-3.4.jar jsr311-api-1.1.1.jar spring-boot-sta
+ rter-web-2.0.3.RELEASE.jar commons-codec-1.11.jar netflix-eventbus-0.
+ 3.0.jar ribbon-transport-2.2.5.jar compactmap-1.2.1.jar aspectjweaver
+ -1.8.13.jar spring-beans-5.0.7.RELEASE.jar jersey-server-1.19.1.jar w
+ oodstox-core-5.0.3.jar tomcat-embed-core-8.5.31.jar commons-math-2.2.
+ jar commons-lang-2.6.jar bcpkix-jdk15on-1.56.jar netty-transport-4.1.
+ 25.Final.jar spring-aop-5.0.7.RELEASE.jar jettison-1.3.7.jar gson-2.8
+ .5.jar jersey-apache-client4-1.19.1.jar jackson-databind-2.9.6.jar ne
+ tflix-infix-0.3.0.jar jsr305-3.0.1.jar stax2-api-3.1.4.jar jackson-mo
+ dule-jaxb-annotations-2.9.6.jar eureka-client-1.9.2.jar jackson-dataf
+ ormat-xml-2.9.6.jar jul-to-slf4j-1.7.25.jar stax-api-1.0-2.jar ribbon
+ -2.2.5.jar spring-boot-starter-2.0.3.RELEASE.jar HdrHistogram-2.1.10.
+ jar snakeyaml-1.19.jar servo-core-0.12.21.jar spring-expression-5.0.7
+ .RELEASE.jar bcprov-jdk15on-1.56.jar hibernate-validator-6.0.10.Final
+ .jar rxnetty-0.4.9.jar tomcat-embed-websocket-8.5.31.jar slf4j-api-1.
+ 7.25.jar spring-boot-2.0.3.RELEASE.jar jackson-annotations-2.9.0.jar 
+ jboss-logging-3.3.2.Final.jar log4j-to-slf4j-2.10.0.jar spring-jcl-5.
+ 0.7.RELEASE.jar rxjava-1.3.8.jar netflix-statistics-0.1.1.jar spring-
+ webmvc-5.0.7.RELEASE.jar spring-cloud-starter-netflix-ribbon-2.0.0.RE
+ LEASE.jar classmate-1.3.4.jar antlr-2.7.7.jar spring-cloud-starter-ne
+ tflix-archaius-2.0.0.RELEASE.jar spring-boot-starter-freemarker-2.0.3
+ .RELEASE.jar log4j-api-2.10.0.jar ribbon-httpclient-2.2.5.jar spring-
+ cloud-context-2.0.0.RELEASE.jar spring-context-5.0.7.RELEASE.jar rxne
+ tty-contexts-0.4.9.jar woodstox-core-asl-4.4.1.jar hystrix-core-1.5.1
+ 2.jar rxnetty-servo-0.4.9.jar ribbon-core-2.2.5.jar spring-boot-start
+ er-aop-2.0.3.RELEASE.jar commons-collections-3.2.2.jar netty-codec-ht
+ tp-4.1.25.Final.jar ribbon-loadbalancer-2.2.5.jar spring-core-5.0.7.R
+ ELEASE.jar logback-classic-1.2.3.jar xstream-1.4.10.jar spring-cloud-
+ netflix-ribbon-2.0.0.RELEASE.jar freemarker-2.3.28.jar xmlpull-1.1.3.
+ 1.jar stax-api-1.0.1.jar spring-boot-starter-logging-2.0.3.RELEASE.ja
+ r netty-resolver-4.1.25.Final.jar spring-cloud-netflix-core-2.0.0.REL
+ EASE.jar jersey-core-1.19.1.jar jackson-datatype-jdk8-2.9.6.jar sprin
+ g-context-support-5.0.7.RELEASE.jar commons-jxpath-1.3.jar guava-16.0
+ .jar jackson-core-2.9.6.jar spring-cloud-starter-2.0.0.RELEASE.jar sp
+ ring-cloud-commons-2.0.0.RELEASE.jar spring-security-crypto-5.0.6.REL
+ EASE.jar spring-security-rsa-1.0.5.RELEASE.jar netty-transport-native
+ -epoll-4.1.25.Final.jar ribbon-eureka-2.2.5.jar netflix-commons-util-
+ 0.3.0.jar validation-api-2.0.1.Final.jar netty-codec-4.1.25.Final.jar
+  jackson-module-parameter-names-2.9.6.jar commons-configuration-1.8.j
+ ar dexx-collections-0.2.jar tomcat-embed-el-8.5.31.jar eureka-core-1.
+ 9.2.jar micrometer-core-1.0.5.jar jackson-datatype-jsr310-2.9.6.jar h
+ ttpclient-4.5.5.jar LatencyUtils-2.0.3.jar spring-boot-starter-json-2
+ .0.3.RELEASE.jar netty-common-4.1.25.Final.jar logback-core-1.2.3.jar
+  spring-boot-actuator-2.0.3.RELEASE.jar spring-boot-autoconfigure-2.0
+ .3.RELEASE.jar joda-time-2.9.9.jar netty-buffer-4.1.25.Final.jar arch
+ aius-core-0.7.6.jar spring-boot-starter-tomcat-2.0.3.RELEASE.jar spri
+ ng-cloud-netflix-archaius-2.0.0.RELEASE.jar spring-boot-starter-actua
+ tor-2.0.3.RELEASE.jar javax.inject-1.jar jersey-servlet-1.19.1.jar ja
+ vax.annotation-api-1.3.2.jar spring-cloud-netflix-eureka-client-2.0.0
+ .RELEASE.jar netty-transport-native-unix-common-4.1.25.Final.jar aopa
+ lliance-1.0.jar jersey-client-1.19.1.jar
+Main-Class: com.zl.eureka.EurekaApplication
+

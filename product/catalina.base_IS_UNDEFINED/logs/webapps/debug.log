@@ -1,0 +1,180 @@
+2018-09-28 15:15:53.972[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 15:15:53.997[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 15:15:54.021[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 15:15:54.023[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 15:15:54.024[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 15:15:54.035[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 15:15:54.036[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 15:15:54.036[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 15:15:54.038[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 15:15:54.038[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 15:15:54.038[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 15:15:54.039[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 15:23:23.441[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 15:23:23.442[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 15:23:23.445[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 15:23:23.445[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 15:23:23.445[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 15:23:23.446[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 15:23:23.447[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 15:23:23.447[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 15:23:23.449[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 15:23:23.449[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 15:23:23.450[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 15:23:23.451[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:07:17.932[http-nio-8081-exec-9] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:07:17.934[http-nio-8081-exec-9] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 1(String), 122(String)
+2018-09-28 17:07:17.944[http-nio-8081-exec-9] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 0
+2018-09-28 17:07:17.973[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:07:17.974[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:07:17.975[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:09:04.526[http-nio-8081-exec-2] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:09:04.529[http-nio-8081-exec-2] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 1(String), 122(String)
+2018-09-28 17:09:04.530[http-nio-8081-exec-2] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 0
+2018-09-28 17:09:04.552[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:09:04.552[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:09:04.553[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:09:46.049[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:09:46.049[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:09:46.052[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:09:46.135[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:09:46.135[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:09:46.136[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:22:43.359[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:22:43.362[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:22:43.364[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:22:56.996[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:22:56.997[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:22:56.998[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:28:37.469[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:28:37.470[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:28:37.472[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:28:37.528[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:28:37.529[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:28:37.529[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:28:58.567[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:28:58.567[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:28:58.569[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:29:06.431[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:29:06.437[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:29:06.439[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:29:20.633[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:29:20.635[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:29:20.636[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:29:20.648[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:29:20.648[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:29:20.650[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:29:21.642[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:29:21.643[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:29:21.646[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:29:21.662[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:29:21.662[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:29:21.663[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:29:33.310[http-nio-8081-exec-7] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:29:33.311[http-nio-8081-exec-7] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:29:33.313[http-nio-8081-exec-7] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:29:45.652[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:29:45.662[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:29:45.663[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:30:12.818[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:30:12.818[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 17:30:12.820[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:30:12.821[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:30:12.821[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 17:30:12.822[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:30:12.823[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:30:12.823[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 17:30:12.824[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:30:12.825[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:30:12.825[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 17:30:12.826[http-nio-8081-exec-10] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:30:26.378[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:30:26.379[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 17:30:26.380[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:30:26.381[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:30:26.381[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 17:30:26.382[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:30:26.382[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:30:26.382[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 17:30:26.383[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:30:26.383[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:30:26.384[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 17:30:26.384[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:31:59.943[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:31:59.943[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 17:31:59.944[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:31:59.945[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:31:59.945[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 17:31:59.946[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:31:59.946[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:31:59.946[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 17:31:59.947[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 17:31:59.947[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 17:31:59.947[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 17:31:59.948[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 17:32:23.200[http-nio-8081-exec-6] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:32:23.200[http-nio-8081-exec-6] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:32:23.202[http-nio-8081-exec-6] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:32:23.246[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:32:23.246[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:32:23.247[http-nio-8081-exec-7] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:33:06.636[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:33:06.637[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:33:06.638[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:33:06.685[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:33:06.686[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:33:06.686[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 17:45:45.103[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 17:45:45.103[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 17:45:45.105[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 17:51:11.169[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 17:51:11.170[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 17:51:11.171[http-nio-8081-exec-1] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 18:02:04.261[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 18:02:04.262[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 18:02:04.264[http-nio-8081-exec-3] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 18:02:04.643[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:02:04.643[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 18:02:04.644[http-nio-8081-exec-4] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 18:04:11.621[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 18:04:11.622[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 18:04:11.624[http-nio-8081-exec-5] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 18:04:11.686[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:04:11.686[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 18:04:11.687[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 18:04:11.688[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 18:04:11.688[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 18:04:11.688[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 18:04:11.689[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:04:11.689[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 18:04:11.690[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 18:04:11.690[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 18:04:11.690[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 18:04:11.691[http-nio-8081-exec-6] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 18:06:52.985[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 18:06:52.986[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 18:06:52.988[http-nio-8081-exec-8] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 18:06:53.041[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:06:53.041[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 18:06:53.042[http-nio-8081-exec-9] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 18:07:04.095[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 18:07:04.101[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 18:07:04.103[http-nio-8081-exec-10] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 18:07:04.114[http-nio-8081-exec-2] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:07:04.114[http-nio-8081-exec-2] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: null
+2018-09-28 18:07:04.115[http-nio-8081-exec-2] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 0
+2018-09-28 18:07:27.069[http-nio-8081-exec-1] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id in ( ? , ? ) 
+2018-09-28 18:07:27.070[http-nio-8081-exec-1] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - ==> Parameters: 157875196366160022(String), 157875227953464068(String)
+2018-09-28 18:07:27.071[http-nio-8081-exec-1] DEBUG c.zl.product.dao.ProductInfoDao.findByProductIdIn - <==      Total: 2
+2018-09-28 18:07:27.120[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:07:27.120[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875196366160022(String)
+2018-09-28 18:07:27.122[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 18:07:27.122[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 18:07:27.122[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875196366160022(String)
+2018-09-28 18:07:27.123[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
+2018-09-28 18:07:27.123[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==>  Preparing: select product_id,product_name,product_price,product_stock,product_description, product_icon,product_status,category_type,create_time,update_time from product_info where product_id = ? 
+2018-09-28 18:07:27.123[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - ==> Parameters: 157875227953464068(String)
+2018-09-28 18:07:27.124[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.findById - <==      Total: 1
+2018-09-28 18:07:27.124[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==>  Preparing: UPDATE product_info SET product_stock = product_stock- ? where product_id=? 
+2018-09-28 18:07:27.124[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - ==> Parameters: 1(Integer), 157875227953464068(String)
+2018-09-28 18:07:27.125[http-nio-8081-exec-3] DEBUG com.zl.product.dao.ProductInfoDao.updateStock - <==    Updates: 1
