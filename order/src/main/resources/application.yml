@@ -11,6 +11,7 @@ spring:
           max-file-size: 10Mb
           max-request-size: 100Mb
 
+
   datasource:
         name: order
         type: com.alibaba.druid.pool.DruidDataSource
@@ -40,6 +41,20 @@ spring:
           #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
           pool-prepared-statements: false
           max-pool-prepared-statement-per-connection-size: 20
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+       myMessage:
+#        group: order  #如果部署多个Order服务，则将group指向order服务，只会发送一次消息，防止多次发送
+         content-type: application/json
+
+
+
 eureka:
   client:
     service-url:
